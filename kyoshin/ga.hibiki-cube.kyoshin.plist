@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>RunAtLoad</key>
+      <true/>
+    <key>KeepAlive</key>
+      <true/>
+    <key>Label</key>
+      <string>ga.hibiki-cube.kyoshin</string>
+    <key>ProgramArguments</key>
+      <array>
+        <string>/Users/hibiki/cool-desktop/kyoshin/kmsupport</string>
+      </array>
+    <key>WorkingDirectory</key>
+      <string>/Users/hibiki/cool-desktop/kyoshin</string>
+    <key>StandardOutPath</key>
+      <string>/var/log/kyoshin/support.log</string>
+    <key>StandardErrorPath</key>
+      <string>/var/log/kyoshin/support.log</string>
+    <key>EnvironmentVariables</key>
+      <dict>
+        <key>PATH</key>
+          <string>/usr/local/bin:/Users/hibiki/bin:/Users/hibiki/.nodebrew/current/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+          <string>/Users/hibiki</string>
+      </dict>
+  </dict>
+</plist>
